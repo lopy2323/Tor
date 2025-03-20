@@ -2,4 +2,4 @@
 
 #jump
 [script](Assets/jump.cs)
-![](gift.gif)
+![](torani/gift.gif)
