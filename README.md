@@ -8,4 +8,11 @@
 ![](torani/tur2.gif)
 [script](Assets/animator.cs)
 
+# beweeg animatie 
+
+![](toriani/tortiorial2.gif)
+[script](Assets/animator.cs)
+
+
+
 
