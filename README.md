@@ -10,7 +10,7 @@
 
 # beweeg animatie 
 
-![](toriani/tortiorial2.gif)
+![](torani/tortiorial2.gif)
 [script](Assets/animator.cs)
 
 
