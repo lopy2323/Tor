@@ -8,6 +8,7 @@ public class animator : MonoBehaviour
     [SerializeField] private float rotSpeed = 50f;
     private Animator animations;
     private Rigidbody rb;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -42,23 +43,10 @@ public class animator : MonoBehaviour
         {
             rb.AddForce(transform.forward * speed * Time.deltaTime);
         }
-        if (Input.GetKey(KeyCode.A) == true)
-        {
-            Quaternion rot = transform.rotation;
-            rot = Quaternion.Euler(rot.eulerAngles + (new Vector3(0, rotSpeed, 0) * Time.deltaTime));
-            rb.MoveRotation(rot);
-            //  transform.rotation = rot;
-        }
-        if (Input.GetKey(KeyCode.D) == true)
-        {
-            Quaternion rot = transform.rotation;
-            rot = Quaternion.Euler(rot.eulerAngles + (new Vector3(0, -rotSpeed, 0) * Time.deltaTime));
-            rb.MoveRotation(rot);
-            //  transform.rotation = rot;
-        }
         if (Input.GetKey(KeyCode.S) == true)
         {
             rb.AddForce(transform.forward * -speed * Time.deltaTime);
         };
+        transform.Rotate(new Vector3(0, Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime, 0));
     }
 }
