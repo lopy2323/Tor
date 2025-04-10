@@ -13,6 +13,11 @@
 ![](torani/tortiorial2.gif)
 [script](Assets/animator.cs)
 
+# jump
+
+![](torani/jump.gif)
+
+[script](Assets/jump.cs)
 
 
 
