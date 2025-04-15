@@ -29,5 +29,13 @@ ik heb ook unieke matriaal gemaakt
 
 [script](Assets/jump.cs)
 
+# COIN
+
+![](torani/coin.gif)
+
+ik heb hier het coin systeem gemaakt met een particle system
+
+[script]Assets/coin.cs)
+
 
 
