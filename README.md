@@ -35,7 +35,7 @@ ik heb ook unieke matriaal gemaakt
 
 ik heb hier het coin systeem gemaakt met een particle system
 
-[script]Assets/coin.cs)
+[script](Assets/coin.cs)
 
 
 
