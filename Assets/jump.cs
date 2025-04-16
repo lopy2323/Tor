@@ -17,7 +17,6 @@ public class jump : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         jumper = new Vector3(0.0f, 2.0f, 0.0f);
 
-
     }
 
     // Update is called once per frame
@@ -32,6 +31,7 @@ public class jump : MonoBehaviour
         Vector3 positionUpdate = transform.position + Input.GetAxis("Vertical") * transform.forward * speed * Time.deltaTime;
         transform.Rotate(new Vector3(0, Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime, 0));
         transform.position = positionUpdate;
+        
     }
     private void OnCollisionEnter(Collision collision)
     {
