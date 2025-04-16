@@ -37,5 +37,12 @@ ik heb hier het coin systeem gemaakt met een particle system
 
 [script](Assets/coin.cs)
 
+# bullet
+
+![](torani/coin.gif)
+
+ik kwam er niet meer uit
+
+[script](Assets/bullet.cs)
 
 
